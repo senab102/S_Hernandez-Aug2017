@@ -15,7 +15,20 @@ public class Calculate {
 	public static double average (double number1, double number2) {
 		return (number1 + number2 )/2;
 	}
-	//This method
+	//This method takes a double and returns an average of three numbers.
 	public static double average (double number1, double number2, double number3) {
-
+		return (number1 + number2 + number3)/3;
+	} 
+	//This method converts an angle measure given in radians into degrees.
+	public static double toDegree (double angle){
+		return (angle * 180/3.14159);
+	}
+	//This method converts an angle measure given in degrees into radians.
+	public static double toRadians (double radians) {
+		return (radians * 3.14159/180);
+		
+	}
 }
+
+
+ 
