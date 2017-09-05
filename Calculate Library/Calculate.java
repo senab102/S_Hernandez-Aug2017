@@ -26,8 +26,12 @@ public class Calculate {
 	//This method converts an angle measure given in degrees into radians.
 	public static double toRadians (double radians) {
 		return (radians * 3.14159/180);
-		
 	}
+	//This method provides a coefficients of a quadratic equation in standard form and returns the value of the discriminant.
+	public static double discriminant (double a, double b, double c) {
+		return (b *b - 4 * a * c);
+	}
+	
 }
 
 
