@@ -31,7 +31,13 @@ public class Calculate {
 	public static double discriminant (double a, double b, double c) {
 		return (b *b - 4 * a * c);
 	}
-	
+	public static String toImproperFrac (int coefficient, int numerator, int denominator) {
+		return ((coefficient * denominator)+numerator)+"/"+denominator;
+	}
+	public static String toMixedNum (int numerator, int denominator) {
+		return (numerator/denominator + "_" + numerator%denominator+ "/" + denominator);
+	}
+
 }
 
 
