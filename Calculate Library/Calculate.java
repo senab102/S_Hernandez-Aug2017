@@ -42,6 +42,7 @@ public class Calculate {
 	}
 	//public static isDivisibleBy (int number1, int number2);
 	
+	
 }
 
 
