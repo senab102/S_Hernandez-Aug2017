@@ -37,7 +37,11 @@ public class Calculate {
 	public static String toMixedNum (int numerator, int denominator) {
 		return (numerator/denominator + "_" + numerator%denominator+ "/" + denominator);
 	}
-
+	public static String foil (int number1, int number2, int number3, int number4, String variable) {
+		return number1*number3+variable+ "^2"+ "+"+((number1*number4)+(number2*number3))+variable +"+"+ (number2*number4);
+	}
+	//public static isDivisibleBy (int number1, int number2);
+	
 }
 
 
