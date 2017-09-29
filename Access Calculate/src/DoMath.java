@@ -29,6 +29,7 @@ public class DoMath {
 		System.out.println(Calculate.gcf(3,5));
 		System.out.println(Calculate.gcf(6,12));
 		System.out.println(Calculate.sqrt(9));
+		System.out.println(Calculate.quadForm (1,2,3));
 		
 	}
 

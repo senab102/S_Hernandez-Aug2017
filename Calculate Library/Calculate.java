@@ -93,7 +93,7 @@ public class Calculate {
 		}
 	}
 
-	public static int min(int number1, int number2) {
+	public static double min(double number1, double number2) {
 		if (number1 < number2) {
 			return number1;
 		} else {
@@ -159,5 +159,24 @@ public class Calculate {
 		}
 		return round2(a);
 	}
+	public static String quadForm (int x, int y, int z) {
+		double disc = discriminant (x,y,z);
+		if (disc < 0) {
+			return "no real roots";
+		}else {
+			double root1 = (-y - sqrt (disc)) / (2 * x);
+			double root2 = (-y + sqrt (disc))/ (2*x);
+			if (root1 == root2) {
+				return "" + round2(root1);
 
+		} else {
+			return round2 (min (root1, root2)) + " and " + round2(max(root1, root2));
+		}
+	}
 }
+
+
+	}
+
+
+
