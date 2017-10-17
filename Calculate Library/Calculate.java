@@ -2,7 +2,7 @@
 //September 5,2017
 //This is our home grown library that will contain various mathematical methods.
 public class Calculate {
-
+//Part 1
 	// This method takes an integer and returns its square.
 	public static int square(int number) {
 		return number * number;
@@ -51,7 +51,7 @@ public class Calculate {
 		return number1 * number3 + variable + "^2" + "+" + ((number1 * number4) + (number2 * number3)) + variable + "+"
 				+ (number2 * number4);
 	}
-
+// Part 2
 	public static boolean isDivisibleBy(int x, int y) {
 		if (x % y == 0) {
 			return (true);
@@ -116,7 +116,7 @@ public class Calculate {
 		result = tempInt / 100.0;
 		return result;
 	}
-
+//Part 3
 	public static double exponent(double number1, int power) {
 		double result = 1.0;
 		for (int i = 0; i < power; i++) {
@@ -178,6 +178,7 @@ public class Calculate {
 
 	
 	
+
 
 	}
 
