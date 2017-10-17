@@ -153,6 +153,7 @@ public class Calculate {
 	}
 
 	public static double sqrt(double x) {
+		throw = new IllegalArgumentException;
 		double a = x / 2.0;
 		while (absValue(x - a * a) > 0.005) {
 			a = 0.5 * (x / a + a);
@@ -175,6 +176,8 @@ public class Calculate {
 	}
 }
 
+	
+	
 
 	}
 
