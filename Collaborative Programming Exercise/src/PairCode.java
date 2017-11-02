@@ -5,7 +5,6 @@
 //This is a pair programming code that will take a string of numbers
 //Print out the largest, smallest, and the total of even, and the largest even number
 
-
 import java.util.*;
 
 public class PairCode {
