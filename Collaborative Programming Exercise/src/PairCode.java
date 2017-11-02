@@ -1,5 +1,6 @@
 
 //Sena Hernandez
+
 //October 9 2017
 //APCS First Period
 //This is a pair programming code that will take a string of numbers
