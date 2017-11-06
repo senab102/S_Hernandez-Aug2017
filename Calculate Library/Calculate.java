@@ -159,7 +159,6 @@ public class Calculate {
 		}
 		return round2(a);
 	}
-	//Part 4
 	public static String quadForm (int x, int y, int z) {
 		double disc = discriminant (x,y,z);
 		if (disc < 0) {
@@ -175,7 +174,8 @@ public class Calculate {
 		}
 	}
 }
-//Part 5
+
+	
 	
 
 
